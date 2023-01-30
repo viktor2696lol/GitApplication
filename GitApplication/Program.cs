@@ -21,6 +21,13 @@ namespace GitApplication
                 Console.WriteLine();
             }
             Console.ForegroundColor = ConsoleColor.White;
+
+            public static void PrintMyName()
+            {
+                Console.WriteLine("Uvarkin Fedor Gennadevich");
+                Console.WriteLine("10.4");
+                Console.WriteLine("August, 31");
+            }
         }
     }
 }
